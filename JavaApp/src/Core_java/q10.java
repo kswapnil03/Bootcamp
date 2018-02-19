@@ -1,5 +1,6 @@
-public class q10
-{
+package Core_java;
+
+public class q10 {
     public enum houses {
         House1(10), House2(15), House(7);
         public final int price;
@@ -15,8 +16,8 @@ public class q10
 
 
     public static void main(String[] args) {
-        for (houses h:houses.values()){
-            System.out.println("house name : "+h+" and house price : "+h.getPrice());
+        for (houses h : houses.values()) {
+            System.out.println("house name : " + h + " and house price : " + h.getPrice());
         }
     }
 }
