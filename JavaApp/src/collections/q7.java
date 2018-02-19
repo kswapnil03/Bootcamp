@@ -1,66 +1,63 @@
 package collections;
 
 import java.util.*;
+
 class MyException extends Exception {
 
     public MyException(String message) {
         super(message);
     }
 }
+
 class stack {
     int top;
-
 
 
     static int max;
     List<Integer> list1;
     List<Integer> mini;
 
-    stack(int max)
-    {
+    stack(int max) {
 //        System.out.println("CTR");
-        this.max=max;
-        this.top=0;
+        this.max = max;
+        this.top = 0;
 
-         list1=new ArrayList<Integer>();
-         mini=new ArrayList<Integer>();
+        list1 = new ArrayList<Integer>();
+        mini = new ArrayList<Integer>();
 
 
     }
-    public Boolean is_full()
-    {
-        if(list1.isEmpty() == true) return false;
-        if(max==list1.size())
+
+    public Boolean is_full() {
+        if (list1.isEmpty() == true) return false;
+        if (max == list1.size())
 
             return true;
         else
             return false;
     }
-    public Boolean is_empty()
-    {
+
+    public Boolean is_empty() {
         return list1.isEmpty();
     }
+
     public void push(int n)
 
     {
-        if(is_full())
-        {
+        if (is_full()) {
             System.out.println("collections.stack is full");
 
-        }
-        else
-        {
+        } else {
 //            System.out.println("check");
 
             this.list1.add(n);
-            if(top==0) {
+            if (top == 0) {
                 this.mini.add(n);
-            }
-            else{
-                if(n<this.mini.get(mini.size()-1))
+            } else {
+                if (n < this.mini.get(mini.size() - 1))
                     this.mini.add(n);
                 else
-                    this.mini.add(this.mini.get(mini.size()-1));
+                    this.mini.add(this.mini.get(mini.size() - 1));
             }
 
 
@@ -82,26 +79,26 @@ class stack {
             throw new MyException("collections.stack is empty");
         }
     }
-    public int getmin() throws MyException
-    {
 
-        if (top!=0)
-            return this.mini.get(top-1);
+    public int getmin() throws MyException {
+
+        if (top != 0)
+            return this.mini.get(top - 1);
         else
             throw new MyException("no value");
     }
 
 
 }
-class q7
-{
+
+class q7 {
     public static void main(String[] args) {
 
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int size;
         System.out.println("enter max size");
-        size=sc.nextInt();
-        stack st=new stack(size);
+        size = sc.nextInt();
+        stack st = new stack(size);
 //        System.out.println("Swapnlin");
         st.push(5);
         st.push(3);
@@ -109,21 +106,16 @@ class q7
         st.push(4);
 
 
-        try{
+        try {
             System.out.println("min element is - " + st.getmin());
-        }catch(MyException e){
+        } catch (MyException e) {
             System.out.println(e.getMessage());
         }
-        try{
+        try {
             st.pop();
-        }catch(MyException e)
-        {
+        } catch (MyException e) {
             System.out.println(e.getMessage());
         }
-
-
-
-
 
 
     }
