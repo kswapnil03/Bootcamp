@@ -16,7 +16,7 @@ class Sortbyage implements Comparator<fifth> {
             return 1;
         else {
             int aa = a.name.compareTo(b.name);
-            if (aa> 0)
+            if (aa > 0)
                 return 1;
             else
                 return -1;
@@ -34,7 +34,7 @@ class fifth {
                  double score) {
         this.age = age;
         this.name = name;
-        this.score=score;
+        this.score = score;
     }
 
 
