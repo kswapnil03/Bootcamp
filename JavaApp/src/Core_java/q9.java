@@ -13,7 +13,7 @@ public class q9 {
                 str.append(line);
             }
 
-            System.out.println(str);
+            System.out.println("sum of the no is ": str);
 
         }
         catch (FileNotFoundException ex){

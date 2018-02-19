@@ -1,7 +1,7 @@
+package collections;
 
 import java.util.*;
 import java.lang.*;
-import java.io.*;
 
 
 class Sortbyage implements Comparator<fifth> {

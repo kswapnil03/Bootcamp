@@ -1,6 +1,5 @@
-import com.sun.org.apache.xpath.internal.operations.Bool;
+package collections;
 
-import java.io.*;
 import java.util.*;
 class MyException extends Exception {
 
@@ -46,7 +45,7 @@ class stack {
     {
         if(is_full())
         {
-            System.out.println("stack is full");
+            System.out.println("collections.stack is full");
 
         }
         else
@@ -80,7 +79,7 @@ class stack {
             return t;
 
         } else {
-            throw new MyException("stack is empty");
+            throw new MyException("collections.stack is empty");
         }
     }
     public int getmin() throws MyException
