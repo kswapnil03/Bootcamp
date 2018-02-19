@@ -11,7 +11,9 @@ public class sixth {
         System.out.println("Enter the size of the array");
         Scanner sc = new Scanner(System.in);
         size = sc.nextInt();
+        System.out.println("enter values within size");
         for (int i = 0; i < size; i++) {
+
             temp = sc.nextInt();
             mylist.add(temp);
             if (count.get(temp) == null) {
@@ -38,6 +40,7 @@ public class sixth {
             }
         });
         int si = mylist.size();
+        System.out.println("Sorted list on basis of count and position is-");
         for (int i = 0; i < si; i++) {
             System.out.println(mylist.get(i));
         }
