@@ -1,3 +1,5 @@
+package Core_java;
+
 public class q7 {
 
     static int age;
@@ -11,7 +13,9 @@ public class q7 {
     }
 
     static void p(int age, String fname, String lname) {
-        System.out.println(fname + " " + lname + " age " + age);
+        System.out.println("First Name is " + fname);
+        System.out.println("Last Name is " + lname);
+        System.out.println("age " + age);
     }
 
     public static void main(String args[]) {
