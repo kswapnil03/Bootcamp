@@ -1,4 +1,4 @@
-package com.hibernate.demo;
+package com.hibernate.demo.entity;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -6,8 +6,9 @@ import java.util.List;
 
 @Entity
 public class Author {
- 
-    @Id @GeneratedValue(strategy=GenerationType.AUTO)
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     @Column(name = "Age")
@@ -24,9 +25,19 @@ public class Author {
     private String dob;
 
     private Address address;
+    @OneToOne
+    private Book book;
+
+    public Book getBook() {
+        return book;
+    }
+
+    public void setBook(Book book) {
+        this.book = book;
+    }
 
     @ElementCollection
-    List<String>list=new ArrayList<>();
+    List<String> list = new ArrayList<>();
 
     public List<String> getList() {
         return list;
