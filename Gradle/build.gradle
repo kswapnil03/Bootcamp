@@ -1,0 +1,48 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+apply from: 'MyTasks.gradle'                                    //Q6
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://bintray.com/docs/usermanual/formats" +    //Q5
+                "/formats_mavenrepositories.html"
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.apache.commons:commons-lang3:3.6'              //Q4
+}
+
+jar {
+    manifest {
+        attributes("Implementation-Title":"Gradle",
+                "Implementation-Version":version,
+                "Main-Class":"HelloWorld")               //Q1
+    }
+    exclude('file1.txt')                                //Q3
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs 'src/main/java'
+            srcDirs 'src/main/java2'                    //Q2
+        }
+    }
+}
+
+task uberjar(type: Jar, dependsOn: [':compileJava', ':processResources']) { //Q4
+    from {
+        configurations.compile.collect {it.isDirectory()? it: zipTree(it)}
+    }
+    with jar
+    manifest {
+        attributes 'Main-Class': 'HelloWorld'
+    }
+}
