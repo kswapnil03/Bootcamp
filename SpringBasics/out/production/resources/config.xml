@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+    <context:component-scan base-package="com.demo"/>
+    <!--Question1-->
+    <!--<bean class="com.demo.Database">-->
+    <!--<property name="portNo" value="2020">-->
+
+    <!--</property>-->
+    <!--<property name="name" value="tomcat">-->
+
+    <!--</property>-->
+    <!--</bean>-->
+    <!--</bean>-->
+
+    <!--<bean id="hotDrink" class="com.demo.Tea"></bean>-->
+    <!--&lt;!&ndash;<bean id="1" class="com.demo.Restaurant" autowire="type" scope="prototype">&ndash;&gt;-->
+    <!--<bean id="1" class="com.demo.Restaurant" scope="prototype">-->
+        <!--&lt;!&ndash;<property name="hotDrink" ref="tea"></property>&ndash;&gt;-->
+    <!--</bean>-->
+    <!--<bean id="expressTea" class="com.demo.ExpressTea"></bean>-->
+    <!--Question2-->
+    <!--<bean id="collections" class="com.demo.Collection">-->
+    <!--<property name="list">-->
+    <!--<list>-->
+    <!--<value>value1</value>-->
+    <!--<value>value2</value>-->
+    <!--</list>-->
+    <!--</property>-->
+
+
+    <!--<property name="map">-->
+    <!--<map>-->
+    <!--<entry key="key-1" value="1"/>-->
+    <!--<entry key="key-2" value="45"/>-->
+    <!--</map>-->
+    <!--</property>-->
+    <!--</bean>-->
+</beans>
