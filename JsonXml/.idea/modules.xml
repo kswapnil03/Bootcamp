@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JsonXml.iml" filepath="$PROJECT_DIR$/.idea/modules/JsonXml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JsonXml_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JsonXml_main.iml" group="JsonXml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JsonXml_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JsonXml_test.iml" group="JsonXml" />
+    </modules>
+  </component>
+</project>
