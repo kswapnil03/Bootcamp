@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean class="Employee">
+        <property name="id" value="1200"></property>
+        <property name="name" value="swapnil">
+        </property>
+        <property name="mailid" value="abc@gmail.com"></property>
+        <property name="salary" value="30000"></property>
+    </bean>
+
+
+
+
+    <bean id = "customEventHandler" class = "Question1.CustomEventListener"/>
+    <bean id = "customEventPublisher" class = "Question1.CustomEventPublisher"/>
+
+</beans>
