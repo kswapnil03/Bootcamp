@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<company>
+    <employee empid="393">
+        <efname>Payal</efname>
+        <elname>Nigam</elname>
+        <dept>technical</dept>
+        <desig>trainee</desig>
+        <competency>jvm</competency>
+        <salary>15100</salary>
+        <email>payal.nigam@tothenew.com</email>
+        <age>22</age>
+        <mob>1234567</mob>
+    </employee>
+
+    <employee empid="A9900">
+        <efname>abc</efname>
+        <elname>def</elname>
+        <dept>technical</dept>
+        <desig>trainee</desig>
+        <competency>aem</competency>
+        <salary>15100</salary>
+        <email>abc.def@tothenew.com</email>
+        <age>21</age>
+        <mob>12444567</mob>
+    </employee>
+
+    <employee empid="A9047">
+        <efname>xyz</efname>
+        <elname>yyy</elname>
+        <dept>technical</dept>
+        <desig>trainee</desig>
+        <competency>devops</competency>
+        <salary>15100</salary>
+        <email>xyz.yyy@tothenew.com</email>
+        <age>23</age>
+        <mob>12444567</mob>
+    </employee>
+
+    <employee empid="A9777">
+        <efname>pqr</efname>
+        <elname>ppp</elname>
+        <dept>technical</dept>
+        <desig>trainee</desig>
+        <competency>frontend</competency>
+        <salary>15100</salary>
+        <email>pqr.ppp@tothenew.com</email>
+        <age>20</age>
+        <mob>1766567</mob>
+    </employee>
+
+    <employee empid="A7654">
+        <efname>jgh</efname>
+        <elname>uyt</elname>
+        <dept>technical</dept>
+        <desig>reporting manager</desig>
+        <competency>technical</competency>
+        <salary>151000</salary>
+        <email>jgh.uyt@tothenew.com</email>
+        <age>32</age>
+        <mob>129997</mob>
+    </employee>
+</company>

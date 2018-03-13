@@ -1,0 +1,75 @@
+{
+  "Employees":
+  [
+    {
+      "emp_id": "A9827",
+      "efname": "Payal",
+      "elname" :"Nigam",
+      "dept": "technical",
+      "desig": "trainee",
+      "competency": "jvm",
+      "salary": 15100,
+      "email" : "payal.nigam@tothenew.com",
+      "age": 22,
+      "mob":1234567
+    } ,
+
+
+    {
+      "emp_id": "A9900",
+      "efname": "abc",
+      "elname" :"def",
+      "dept": "technical",
+      "desig": "trianee",
+      "competency": "aem",
+      "salary": 15100,
+      "email" : "abc.def@tothenew.com",
+      "age": 21,
+      "mob":12444567
+    },
+
+    {
+
+      "emp_id": "A9047",
+      "efname": "xyz",
+      "elname" :"yyy",
+      "dept": "technical",
+      "desig": "trainee",
+      "competency": "devops",
+      "salary": 15100,
+      "email" : "xyz.yyy@tothenew.com",
+      "age": 23,
+      "mob":12444567
+    },
+
+    {
+
+      "emp_id": "A9777",
+      "efname": "pqr",
+      "elname" :"ppp",
+      "dept": "technical",
+      "desig": "trainee",
+      "competency": "frontend",
+      "salary": 15100,
+      "email" : "pqr.ppp@tothenew.com",
+      "age": 20,
+      "mob":1766567
+    },
+
+    {
+
+      "emp_id": "A7654",
+      "efname": "jgh",
+      "elname" :"uyt",
+      "dept": "technical",
+      "desig": "reporting manager",
+      "competency": "technical",
+      "salary": 151000,
+      "email" : "jgh.uyt@tothenew.com",
+      "age": 32,
+      "mob":129997
+    }
+
+
+  ]
+}
