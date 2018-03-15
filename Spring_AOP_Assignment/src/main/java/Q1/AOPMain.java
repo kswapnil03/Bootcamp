@@ -7,7 +7,8 @@ public class AOPMain {
     public static void main(String[] args) {
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring_config1.xml");
         Service service=applicationContext.getBean(Service.class);
-        service.setName("swapnil");
+        service.setName("swapnil khanna");
+        //
         service.getName();
         service.setId(20);
         service.getId();
