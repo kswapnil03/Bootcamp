@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-iotjobsdataplane:1.11.271">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-iotjobsdataplane/1.11.271/a94f33bbb34b371f76d1da205545df8520dfd821/aws-java-sdk-iotjobsdataplane-1.11.271.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-iotjobsdataplane/1.11.271/cdb09d7d68b949dc0772bf610c5e2a80a8ebf639/aws-java-sdk-iotjobsdataplane-1.11.271-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

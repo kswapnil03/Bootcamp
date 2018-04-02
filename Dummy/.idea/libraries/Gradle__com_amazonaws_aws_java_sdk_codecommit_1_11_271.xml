@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-codecommit:1.11.271">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-codecommit/1.11.271/2196440aef5c2f324d2ccb44ccdd9becfda185fb/aws-java-sdk-codecommit-1.11.271.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-codecommit/1.11.271/b233bb60e721a673cc91eeecc8f4b18235b1362/aws-java-sdk-codecommit-1.11.271-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

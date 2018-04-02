@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-elasticloadbalancingv2:1.11.271">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticloadbalancingv2/1.11.271/bb2e147a37e50d362cf79300e7beda5b45d14376/aws-java-sdk-elasticloadbalancingv2-1.11.271.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticloadbalancingv2/1.11.271/48fbe8e43147f2592ca95d41fef311f4823a25ed/aws-java-sdk-elasticloadbalancingv2-1.11.271-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.btmatthews.springboot:memcached-spring-boot-starter:1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.btmatthews.springboot/memcached-spring-boot-starter/1.0.0/16474a1e6ad1c3c226f5fbd1a0531aaf5cd2de2/memcached-spring-boot-starter-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.btmatthews.springboot/memcached-spring-boot-starter/1.0.0/fce304052c5dea96182d8d70e9d3d277a0de9cc6/memcached-spring-boot-starter-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

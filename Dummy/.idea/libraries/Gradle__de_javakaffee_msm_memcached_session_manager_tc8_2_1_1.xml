@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: de.javakaffee.msm:memcached-session-manager-tc8:2.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.javakaffee.msm/memcached-session-manager-tc8/2.1.1/12bec1cd796baf7dac4b986b2369b722a5cbd49b/memcached-session-manager-tc8-2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.javakaffee.msm/memcached-session-manager-tc8/2.1.1/9f3145900f6a5128a5a471c9d85b8fc7dabb9bc8/memcached-session-manager-tc8-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

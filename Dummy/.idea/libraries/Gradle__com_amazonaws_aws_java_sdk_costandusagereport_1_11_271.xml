@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-costandusagereport:1.11.271">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-costandusagereport/1.11.271/3d90054d78c9245a57b147c0fae5487bb58bc958/aws-java-sdk-costandusagereport-1.11.271.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-costandusagereport/1.11.271/c2ae0882bb169bcc67ea8f0893e3c225da5f817b/aws-java-sdk-costandusagereport-1.11.271-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
